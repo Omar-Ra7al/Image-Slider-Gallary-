@@ -11,4 +11,7 @@ This project is an interactive image gallery slider that provides a smooth and r
 - **Hover to Pause:** When the user hovers over the slider, the automatic image transition pauses, allowing them to focus on a particular image without interruption.
 - **Easy Image Management:** Simply add your desired images to the gallery, and the spans will be created automatically, reflecting the total number of images.
 
-This project is perfect for showcasing image collections in a visually appealing and user-friendly way, whether on a website or a mobile app.
+This project is perfect for showcasing image collections in a visually appealing and user-friendly way, whether on a website or a mobile app
+
+## Live Demo
+Check out the live demo of the project [here](https://omar-ra7al.github.io/Image-Slider-Gallary-/).
