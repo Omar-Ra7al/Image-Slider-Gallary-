@@ -23,6 +23,12 @@ header p {
     margin: 50px 0;
 }
 
+@media (max-width:575px) {
+    header p {
+        font-size: 30px;
+    }
+}
+
 section {
     width: 350px;
     max-width: 70%;
