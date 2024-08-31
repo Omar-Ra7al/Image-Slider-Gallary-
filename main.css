@@ -1,144 +1,144 @@
 body {
-    background-image: linear-gradient(to left bottom,
-            #d16ba5,
-            #c777b9,
-            #ba83ca,
-            #aa8fd8,
-            #9a9ae1,
-            #8aa7ec,
-            #79b3f4,
-            #69bff8,
-            #52cffe,
-            #41dfff,
-            #46eefa,
-            #5ffbf1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: sans-serif;
-    overflow-x: hidden;
-    min-height: 100vh;
-    padding: 50px 0;
+  background-image: linear-gradient(
+    to left bottom,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+  padding: 50px 0;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    -webkit-appearance: none;
-    appearance: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header p {
-    font-size: 46px;
-    font-weight: bold;
-    color: #fff;
-    margin: 50px 0;
+  font-size: 46px;
+  font-weight: bold;
+  color: #fff;
+  margin: 50px 0;
 }
 
 @media (max-width: 575px) {
-    header p {
-        font-size: 30px;
-    }
+  header p {
+    font-size: 30px;
+  }
 }
 
 section {
-    width: 350px;
-    max-width: 70%;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    background-color: #ffffff57;
+  width: 350px;
+  max-width: 70%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #ffffff57;
 }
 
 .sliderContainer {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    padding: 20px;
-    overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
 }
 
 .imgs-wrapper {
-    /* width: 260px; */
-    width: 100%;
-    /* Width will === the section width - padding L&R = 300 - 40  = 260px */
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.3s;
+  /* width: 260px; */
+  width: 100%;
+  /* Width will === the section width - padding L&R = 300 - 40  = 260px */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
 }
 
 .img-holder {
-    min-width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgs-wrapper img {
-    width: 80%;
+  width: 80%;
 }
 
 .sliders {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .sliders span {
-    font-size: 25px;
-    font-weight: bolder;
-    cursor: pointer;
-    transition: 0.3s;
-    color: #fff;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
 
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .sliders span:hover {
-    transform: rotate(180deg) scale(1.3);
+  transform: rotate(180deg) scale(1.3);
 }
 
 .img-position {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .img-position span {
-    position: relative;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    display: block;
-    border: 1px solid black;
-    cursor: pointer;
-    transition: 0.3s;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .img-position span.active,
 .img-position span:hover {
-    background-color: #fff;
-    transform: scale(1.2);
-    box-shadow: 0 0 3px #d16ba5;
+  background-color: #fff;
+  transform: scale(1.2);
+  box-shadow: 0 0 3px #d16ba5;
 }
